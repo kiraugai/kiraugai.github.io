@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title>Safety4yoU Landingpage</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -13,6 +13,8 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <!-- yet to include, see comment
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"> -->
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -20,8 +22,66 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+        <header>
+            <nav>
+                <h1><strong>S A F E T Y 4 Y O U</strong></h1>
+                    <a href="index.html" id="homenavigation">
+                        <ul>
+                            <li>OVER ONS</li>
+                            <li>ONZE VISIE</li>
+                            <li>SHOWROOM</li>
+                            <li>WORKSHOPS</li>
+                            <li>BEURSAGENDA</li>
+                        </ul>
+                    </a>
+            </nav>
+        </header>
 
+        <section class="wrapper">
+            <div class="slider">
+                <img src="img/showroom2.jpg">
+            </div>
+            <div class="sidebars">
+                <img src="img/showroom1.jpg">
+                <img src="img/yellowrose3.jpg">
+            </div>
+        </section>
+
+        <footer>
+            <form action="http://www.safety4you.eu/inschrijvennieuwsbrief?NIEUWSBRIEF" method="get">
+                <p>Op de hoogte blijven van de nieuwste ontwikkelingen?</p>
+                <input type="email" id="email" name="NIEUWSBRIEF" placeholder="E-MAIL" required>
+               <input type="submit" value="INSCHRIJVEN NIEUWSBRIEF" id="inschrijfbutton">
+            </form>
+            <a href="index.html" id="footernavigation">
+                <ul>
+                    <li>CONTACT</li>
+                    <li>CAREERS</li>
+                </ul>
+            </a>
+            <!--don't know how to style this in css, icons look small
+            <i class="fa fa-facebook-official" aria-hidden="true"></i>
+            <i class="fa fa-youtube" aria-hidden="true"></i>
+            -->
+        </footer>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- THIS PART IS SLID DOWN -->
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
