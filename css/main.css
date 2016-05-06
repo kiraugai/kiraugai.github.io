@@ -19,9 +19,10 @@ header {
     display: inline-block;
     background-color: white;
     width: 100%;
-    height: 145px;
+    height: 150px;
     position: fixed;
     z-index: 100;
+    border-bottom: dotted 2px;
 }
 
 h1 {
@@ -51,9 +52,10 @@ a {
 }
 
 .wrapper2 {
-    background-image: url('../img/showroom1.jpg');
+    background-image: url('../img/showroom02.jpg');
     background-attachment: fixed;
     height: 100vh;
+    margin-top: 0px;
 }
 
 .wrapper2 .webshop {
@@ -63,6 +65,12 @@ a {
 }
 
 .webshop h1 a {
+    display: inline-block;
+    padding: 30px;
+    background-color: rgba(255,255,255,0.7);
+}
+
+.webshop a {
     font-family: code-light;
 }
 
@@ -102,6 +110,7 @@ footer {
     height: 160px;
     color: black;
     font-family: code-bold;
+    border-top: dotted 2px;
 }
 
 footer a {
@@ -131,19 +140,20 @@ input {
     font-family: verdana;
     text-align: left;
     font-size: 12px;
-    padding-right: 50px;
+    padding-right: 30px;
 }
 
 #email {
     font-family: verdana;
     text-align: left;
     font-size: 12px;
-    padding-right: 50px;
+    padding-right: 30px;
 }
 
 #inschrijfbutton {
     font-family: verdana;
     font-size: 12px;
+    font-style: italic;
     padding: 10px;
     border: none;
     background-color: white;
@@ -152,7 +162,7 @@ input {
 footer ul li {
     display: inline-block;
     padding: 16px;
-    font-size: 16px;
+    font-size: 14px;
     font-family: code-bold;
 }
 
