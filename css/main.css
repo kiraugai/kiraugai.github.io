@@ -121,13 +121,23 @@ footer form {
 input {
     display: inline-block;
     padding: 10px;
-    border: solid;
+    border-bottom: solid;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+}
+
+#naam {
+    font-family: verdana;
+    text-align: left;
+    font-size: 12px;
+    padding-right: 50px;
 }
 
 #email {
     font-family: verdana;
+    text-align: left;
     font-size: 12px;
-    padding-left: 50px;
     padding-right: 50px;
 }
 
