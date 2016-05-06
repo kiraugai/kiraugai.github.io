@@ -52,6 +52,7 @@ a {
 .wrapper2 {
     background-image: url('../img/showroom1.jpg');
     background-attachment: fixed;
+    height: 100vh;
 }
 
 
