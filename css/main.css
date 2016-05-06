@@ -67,17 +67,21 @@ a {
 }
 
 .wrapper3 {
-    background-image: url('../img/yellowrose3.jpg');
+    background-image: url('../img/yellowrosegold.jpg');
     background-attachment: scroll;
-    height: 100vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 80vh;
 }
 
 .yellowrose h1 {
     font-family: code-light;
+    text-align: left;
 }
 
 .yellowrose p {
-    font-family: code-bold;
+    font-family: verdana;
+    font-size: 12px;
     text-align: center;
     color: black;
 }
@@ -87,23 +91,7 @@ a {
     float: left;
     margin-left: 30px;
     width: 30%;
-    background-color: rgba(255,0,0,0.1);
-}
-
-.yellow2 {
-    display: inline-block;
-    float: left;
-    margin-left: 45px;
-    width: 30%;
-    background-color: white;
-}
-
-.yellow3 {
-    display: inline-block;
-    float: right;
-    margin-right: 30px;
-    width: 30%;
-    background-color: white;
+    background-color: rgba(255,255,255,0.5);
 }
 
 /*
