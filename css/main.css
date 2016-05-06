@@ -21,7 +21,7 @@ header {
     width: 100%;
     height: 140px;
     position: fixed;
-    
+    z-index: 100;
 }
 
 h1 {
@@ -47,6 +47,7 @@ li {
 
 a {
     text-decoration: none;
+    color: black;
 }
 
 .wrapper2 {
@@ -55,6 +56,55 @@ a {
     height: 100vh;
 }
 
+.wrapper2 .webshop {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.webshop h1 a {
+    font-family: code-light;
+}
+
+.wrapper3 {
+    background-image: url('../img/yellowrose3.jpg');
+    background-attachment: scroll;
+    height: 100vh;
+}
+
+.yellowrose h1 {
+    font-family: code-light;
+}
+
+.yellowrose p {
+    font-family: code-bold;
+    text-align: center;
+    color: black;
+}
+
+.yellow1 {
+    display: inline-block;
+    float: left;
+    margin-left: 30px;
+    width: 30%;
+    background-color: rgba(255,0,0,0.1);
+}
+
+.yellow2 {
+    display: inline-block;
+    float: left;
+    margin-left: 45px;
+    width: 30%;
+    background-color: white;
+}
+
+.yellow3 {
+    display: inline-block;
+    float: right;
+    margin-right: 30px;
+    width: 30%;
+    background-color: white;
+}
 
 /*
  * Remove text-shadow in selection highlight:
@@ -148,7 +198,6 @@ textarea {
     font-family: "code-light";
     src: url("font/CODE Light.otf") format("opentype");
 }
-
 
 
 
