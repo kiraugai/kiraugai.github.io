@@ -57,25 +57,20 @@ nav {
 li {
     display: inline-block;
     padding: 16px;
-    font-size: 14px;
-    font-family: code-bold;
     text-decoration: none;
 }
 
-.box1 .carousel-caption {
-    width:500px;
-    height:450px;
-    background-color: rgba(255,255,255,0.4);
-    float: right;
-    margin-left: 400px;
-    margin-bottom: 250px;
+.carousel-caption {
     padding-top: 20px;
     padding-right: 30px;
     padding-left: 30px;
     padding-bottom:30px;
+    background-color: rgba(255,255,255,0.4);
+    width:500px;
+    height:450px;
 }
 
-.box1 .carousel-caption h3 a {
+.carousel-caption h3 a {
     font-family: code-light;
     font-size: 45px;
     color: black;
@@ -83,11 +78,7 @@ li {
     text-decoration: none;
 }
 
-.box1 .carousel-caption h3 a:focus, a:hover {
-    color: #E6007E !important;
-}
-
-.box1 .carousel-caption p {
+.carousel-caption p {
     font-style: verdana;
     font-size: 12px;
     color: black;
@@ -95,22 +86,43 @@ li {
     text-align: justify;
 }
 
+.carousel-control:hover {
+    color: white;
+}
+
+.carousel-caption h3 a:focus,
+.carousel-caption h3 a:hover {
+    color: #E6007E;
+}
+
+.box1 .carousel-caption {
+    float: right;
+    margin-left: 400px;
+    margin-bottom: 250px;
+}
+
 .box2 .carousel-caption {
-    width:300px;
-    height:500px;
-    background-color: rgba(255,255,255,0.5);
+    float: left;
+}
+
+.box2 .carousel-caption ul {
+    font-style: verdana;
+    font-size: 12px;
+    color: black;
+    text-shadow: none;
+    text-align: justify;
 }
 
 .box3 .carousel-caption {
     width:300px;
     height:600px;
-    background-color: rgba(255,255,255,0.5);
+
 }
 
 .box4 .carousel-caption {
     width:300px;
     height:600px;
-    background-color: rgba(255,255,255,0.5);
+
 }
 
 .box5 .carousel-caption {
@@ -163,6 +175,11 @@ li {
     font-family: code-light;
     text-align: left;
     margin-left: 20px;
+}
+
+.yellowrose a {
+    text-decoration: none;
+    color: black;
 }
 
 .yellowrose p {
