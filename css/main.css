@@ -42,9 +42,9 @@ h1 {
     margin: 10px;
 }
 
-a:focus, a:hover {
-    color: #E6007E !important;
-    text-decoration: none !important;
+li a:focus, li a:hover {
+    color: #E6007E;
+    text-decoration: none;
 }
 
 nav {
@@ -63,9 +63,22 @@ li {
 }
 
 .box1 .carousel-caption {
-    width:300px;
-    height:400px;
+    width:500px;
+    height:450px;
     background-color: rgba(255,255,255,0.5);
+    float: right;
+    margin-left: 400px;
+    margin-bottom: 300px;
+}
+
+.box1 .carousel-caption h1 a {
+    font-style: code-light;
+    color: black;
+}
+
+.box1 .carousel-caption p {
+    font-style: verdana;
+    color: black;
 }
 
 .box2 .carousel-caption {
