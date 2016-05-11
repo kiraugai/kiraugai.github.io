@@ -65,20 +65,34 @@ li {
 .box1 .carousel-caption {
     width:500px;
     height:450px;
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(255,255,255,0.4);
     float: right;
     margin-left: 400px;
-    margin-bottom: 300px;
+    margin-bottom: 250px;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom:30px;
 }
 
-.box1 .carousel-caption h1 a {
-    font-style: code-light;
+.box1 .carousel-caption h3 a {
+    font-family: code-light;
+    font-size: 45px;
     color: black;
+    text-shadow: none;
+    text-decoration: none;
+}
+
+.box1 .carousel-caption h3 a:focus, a:hover {
+    color: #E6007E !important;
 }
 
 .box1 .carousel-caption p {
     font-style: verdana;
+    font-size: 12px;
     color: black;
+    text-shadow: none;
+    text-align: justify;
 }
 
 .box2 .carousel-caption {
@@ -133,6 +147,10 @@ li {
     text-decoration: none;
 }
 
+.webshop a:focus, a:hover {
+    color: #E6007E;
+}
+
 .wrapper3 {
     background-image: url('../img/wrapper3.jpg');
     background-attachment: scroll;
@@ -168,15 +186,19 @@ li {
     margin-right: 30px;
     margin-top: 290px;
     margin-left: 640px;
-    width: 18%;
-    background-color: rgba(255,255,255,0.5);
+    width: 21%;
+    background-color: rgba(255,255,255,0);
 }
 
 .meerlezen a {
     text-decoration: none;
     color: black;
-    font-family: code-bold;
-    font-size: 30px;
+    font-family: code-light;
+    font-size: 45px;
+}
+
+.meerlezen a:focus, a:hover {
+    color: #E6007E;
 }
 
 footer {
