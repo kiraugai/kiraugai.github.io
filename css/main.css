@@ -36,7 +36,7 @@ header {
 
 h1 {
     font-family: code-bold;
-    font-size: 50px;
+    font-size: 55px;
     text-align: center;
     color: black;
     margin: 10px;
@@ -60,6 +60,36 @@ li {
     font-size: 14px;
     font-family: code-bold;
     text-decoration: none;
+}
+
+.box1 .carousel-caption {
+    width:300px;
+    height:400px;
+    background-color: rgba(255,255,255,0.5);
+}
+
+.box2 .carousel-caption {
+    width:300px;
+    height:500px;
+    background-color: rgba(255,255,255,0.5);
+}
+
+.box3 .carousel-caption {
+    width:300px;
+    height:600px;
+    background-color: rgba(255,255,255,0.5);
+}
+
+.box4 .carousel-caption {
+    width:300px;
+    height:600px;
+    background-color: rgba(255,255,255,0.5);
+}
+
+.box5 .carousel-caption {
+    width:300px;
+    height:600px;
+    background-color: rgba(255,255,255,0.5);
 }
 
 .wrapper2 {
@@ -132,8 +162,8 @@ li {
 .meerlezen a {
     text-decoration: none;
     color: black;
-    font-family: code-light;
-    font-size: 38px;
+    font-family: code-bold;
+    font-size: 30px;
 }
 
 footer {
@@ -468,10 +498,4 @@ textarea {
     h3 {
         page-break-after: avoid;
     }
-}
-
-.carousel-caption {
-    width:200px;
-    height:200px;
-    background-color: rgba(255,255,255,0.5);
 }
