@@ -60,12 +60,23 @@ li {
     text-decoration: none;
 }
 
+.carousel .item {
+  height: 720px;
+}
+
+.item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+}
+
 .carousel-caption {
     padding-top: 20px;
     padding-right: 30px;
     padding-left: 30px;
     padding-bottom:30px;
-    background-color: rgba(255,255,255,0.4);
+    background-color: rgba(255,255,255,0.5);
     width:500px;
     height:450px;
 }
@@ -97,38 +108,33 @@ li {
 
 .box1 .carousel-caption {
     float: right;
-    margin-left: 400px;
-    margin-bottom: 250px;
+    margin-left: 420px;
+    margin-bottom: 80px;
 }
 
-.box2 .carousel-caption {
+.box2 .links .carousel-caption {
     float: left;
+    margin-bottom: 70px;
+    margin-right: 560px;
+    margin-left: 20px;
 }
 
-.box2 .carousel-caption ul {
-    font-style: verdana;
-    font-size: 12px;
-    color: black;
-    text-shadow: none;
-    text-align: justify;
+.box2 .rechts .carousel-caption {
+    width: 400px;
+    height: 330px;
+    float: right;
+    margin-bottom: 135px;
+    margin-left: 560px;
+    margin-right: 20px;
 }
 
 .box3 .carousel-caption {
-    width:300px;
-    height:600px;
-
 }
 
 .box4 .carousel-caption {
-    width:300px;
-    height:600px;
-
 }
 
 .box5 .carousel-caption {
-    width:300px;
-    height:600px;
-    background-color: rgba(255,255,255,0.5);
 }
 
 .wrapper2 {
