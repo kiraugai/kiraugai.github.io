@@ -160,7 +160,7 @@ li {
     display: inline-block;
     padding: 30px;
     background-color: rgba(255,255,255,0.7);
-    border: dotted 2px;
+    border: solid 1.5px;
 }
 
 .webshop a {
