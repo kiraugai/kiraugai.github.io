@@ -52,7 +52,7 @@ a {
 }
 
 .wrapper2 {
-    background-image: url('../img/showroom02.jpg');
+    background-image: url('../img/wrapper2.jpg');
     background-attachment: fixed;
     height: 100vh;
     margin-top: 0px;
@@ -68,14 +68,19 @@ a {
     display: inline-block;
     padding: 30px;
     background-color: rgba(255,255,255,0.7);
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: black;
 }
 
 .webshop a {
     font-family: code-light;
+    color: black;
+    text-decoration: none;
 }
 
 .wrapper3 {
-    background-image: url('../img/yellowrosegold.jpg');
+    background-image: url('../img/wrapper3.jpg');
     background-attachment: scroll;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -101,6 +106,23 @@ a {
     margin-left: 30px;
     width: 30%;
     background-color: rgba(255,255,255,0.5);
+}
+
+.meerlezen {
+    display: inline-block;
+    float: right;
+    margin-right: 30px;
+    margin-top: 290px;
+    margin-left: 640px;
+    width: 18%;
+    background-color: rgba(255,255,255,0.5);
+}
+
+.meerlezen a {
+    text-decoration: none;
+    color: black;
+    font-family: code-light;
+    font-size: 38px;
 }
 
 footer {
@@ -141,6 +163,7 @@ input {
     text-align: left;
     font-size: 12px;
     padding-right: 30px;
+    outline: none;
 }
 
 #email {
@@ -148,6 +171,7 @@ input {
     text-align: left;
     font-size: 12px;
     padding-right: 30px;
+    outline: none;
 }
 
 #inschrijfbutton {
@@ -164,6 +188,7 @@ footer ul li {
     padding: 16px;
     font-size: 14px;
     font-family: code-bold;
+    color: black;
 }
 
 /* yet to include

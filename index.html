@@ -10,6 +10,8 @@
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
 
+        <link rel="stylesheet" href="css/bootstrap.css">
+
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
@@ -39,9 +41,26 @@
             </nav>
         </header>
 
-        <section class="wrapper">
-                 <img src="img/home.jpg">
-        </section>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+        </ol><!-- carousel-indicators -->
+
+            <div class="carousel-inner">
+                <div class="item active"><img src="img/wrapper1a.jpg" alt="Photo of a SPA"></div>
+                <div class="item"><img src="img/wrapper1b.jpg" alt="Photo of a showroom"></div>
+                <div class="item"><img src="img/wrapper1c.jpg" alt="Photo of the salonchairs"></div>
+                <div class="item"><img src="img/wrapper1d.jpg" alt="Photo of a Yellow Rose products"></div>
+                <div class="item"><img src="img/wrapper1e.jpg" alt="Photo of a Chair"></div>
+            </div> <!--carousel-inner -->
+
+            <a href="#myCarousel" class="left carousel-control" data-slide="prev"><span.class="glyphicon glyphicon-chevron-left"></span></a>
+            <a href="#myCarousel" class="right carousel-control" data-slide="next"><span.class="glyphicon glyphicon-chevron-right"></span></a>
+        </div><!-- myCarousel -->
 
         <section class="wrapper2">
             <div class="webshop">
@@ -55,6 +74,9 @@
                     <div class="yellow1">
                         <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt consequatur maiores fugiat ad nulla cumque quod, perferendis esse quo soluta voluptate possimus eligendi. Fugit, tempora consequuntur quia, sapiente corporis sequi? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, laboriosam, impedit. Facere ducimus, tempore vel at impedit rem, sit consequatur, repellendus, saepe voluptatibus non officiis. Exercitationem blanditiis consequuntur sed natus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi esse ipsam magnam voluptas iste aliquid, rerum quisquam dignissimos! Obcaecati error vel, maxime laudantium neque incidunt ullam id doloribus nesciunt reprehenderit.
                         </p>
+                    </div>
+                    <div class="meerlezen">
+                        <h1><a href="">LEES MEER . . .</a></h1>
                     </div>
             </div>
         </section>
@@ -99,6 +121,7 @@
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
+        <script src="js/bootstrap.js"></script>
         <script src="js/main.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
