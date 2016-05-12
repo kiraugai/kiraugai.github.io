@@ -79,6 +79,7 @@ li {
     border-right: dotted 2px;
     height: 750px;
     width: 100%;
+    line-height: 1.4;
 }
 
 .wrapper1 .section1 .textwrap1 {
@@ -105,19 +106,33 @@ li {
 .wrapper2 .section2 {
     background-image: url("../img/section2.jpg");
     background-position: cover;
+    border-top: dotted 2px;
     border-left: dotted 2px;
     border-right: dotted 2px;
-    height: 700px;
+    height: 600px;
     width: 100%;
+    line-height: 1.8;
 }
 
-.wrapper3 .section3 {
-    background-image: url("../img/section3.jpg");
-    background-position: cover;
-    height: 690px;
-    with: 100%;
-    border-left: dotted 2px;
-    border-right: dotted 2px;
+.section2 h1 {
+    font-family: code-bold;
+}
+
+.section2 p {
+    font-family: verdana;
+    font-size: 12px;
+}
+
+.wrapper2 .section2 .textwrap2 {
+    display: inline-block;
+    float: left;
+    margin-top: 160px;
+    margin-left: 150px;
+    height: 300px;
+    width: 450px;
+    padding: 20px;
+    background-color: rgba(255,255,255,0.7);
+    border: dotted 2px;
 }
 
 footer {
