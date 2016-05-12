@@ -79,6 +79,7 @@ li {
     border-right: dotted 2px;
     height: 750px;
     width: 100%;
+    line-height: 1.4;
 }
 
 .wrapper1 .section1 .textwrap1 {
@@ -103,17 +104,9 @@ li {
     font-size: 12px;
 }
 
-.wrapper2 .section2 {
-    background-image: url("../img/section22.jpg");
-    background-position: cover;
-    border-left: dotted 2px;
-    border-right: dotted 2px;
-    height: 500px;
-    width: 100%;
-}
-
 .section2 h1 {
     font-family: code-bold;
+    font-size: 28px;
 }
 
 .section2 p {
@@ -123,27 +116,29 @@ li {
 
 .wrapper2 .section2 .textwrap2 {
     display: inline-block;
-    float: right;
-    margin-top: 180px;
-    margin-right: 50px;
-    height: 270px;
+    float: left;
+    margin-top: 130px;
+    margin-left: 95px;
+    height: 310px;
     width: 450px;
-    padding: 30px;
+    padding: 35px;
     background-color: rgba(255,255,255,0.7);
     border: dotted 2px;
 }
 
 .wrapper2 .section2 {
-    background-image: url("../img/section22.jpg");
+    background-image: url("../img/section222.jpg");
     background-position: cover;
     border-left: dotted 2px;
     border-right: dotted 2px;
-    height: 500px;
+    height: 580px;
     width: 100%;
+    line-height: 1.6;
 }
 
 .section3 h1 {
     font-family: code-bold;
+    font-size: 28px;
 }
 
 .section3 p {
@@ -156,11 +151,21 @@ li {
     float: right;
     margin-top: 180px;
     margin-right: 50px;
-    height: 270px;
+    height: 330px;
     width: 450px;
     padding: 30px;
     background-color: rgba(255,255,255,0.7);
     border: dotted 2px;
+}
+
+.wrapper3 .section3 {
+    background-image: url("../img/section333.jpg");
+    background-position: cover;
+    border-left: dotted 2px;
+    border-right: dotted 2px;
+    height: 580px;
+    width: 100%;
+    line-height: 1.6;
 }
 
 footer {
