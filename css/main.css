@@ -149,7 +149,7 @@ li {
     color: #E6007E;
 }
 
-.whole .carousel-caption h5 {
+.carousel-caption h5 {
     font-family: verdana;
     font-weight: bold;
     font-size: 12px;
@@ -159,7 +159,7 @@ li {
     text-align: left;
 }
 
-.whole .carousel-caption .aside h5 p {
+.carousel-caption .aside h5 p {
     color: black;
     font-family: verdana;
     text-shadow: none;
@@ -172,7 +172,23 @@ li {
     padding-right: 30px;
 }
 
-.box4 .carousel-caption {
+.box4 .leftie .carousel-caption {
+    float: left;
+    margin-right: 700px;
+    margin-top: 100px;
+    margin-bottom: 90px;
+    height: 430px;
+    width: 440px;
+}
+
+.box4 .rightie .carousel-caption {
+    float: right;
+    margin-right: 100px;
+    margin-left: 450px;
+    margin-bottom: 170px;
+    margin-top: 100px;
+    height: 300px;
+    width: 450px;
 }
 
 .box5 .carousel-caption {
