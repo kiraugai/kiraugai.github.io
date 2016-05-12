@@ -233,6 +233,12 @@ video#bgvid {
     border-top: dotted 2px;
 }
 
+.wrapper3 .yellow1 p {
+    text-align: justify;
+    padding-left: 30px;
+    width: 500px;
+}
+
 .webshop h1 a {
     display: inline-block;
     padding: 30px;
