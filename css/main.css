@@ -123,14 +123,36 @@ li {
 
 .box2 .rechts .carousel-caption {
     width: 400px;
-    height: 330px;
+    height: 300px;
     float: right;
     margin-bottom: 135px;
     margin-left: 560px;
     margin-right: 20px;
 }
 
-.box3 .carousel-caption {
+.box3 .whole .carousel-caption {
+    width: 900px;
+    height: 420px;
+    margin-bottom: 90px;
+}
+
+.whole .carousel-caption h3:focus, 
+.whole .carousel-caption h3:hover {
+    color: #E6007E;
+}
+
+.whole .carousel-caption h3 {
+    font-family: code-light;
+    font-size: 45px;
+    color: black;
+    text-shadow: none;
+    text-decoration: none;
+    text-align: left;
+}
+
+.whole .carousel-caption .map {
+    float: left;
+    padding-right: 20px;
 }
 
 .box4 .carousel-caption {
@@ -385,11 +407,6 @@ textarea {
 * {
  box-sizing: border-box;
 }
-
-
-
-
-
 
 
 /* ==========================================================================
