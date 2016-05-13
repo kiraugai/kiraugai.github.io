@@ -73,24 +73,26 @@ li {
 }
 
 .wrapper1 .section1 {
-    background-image: url("../img/section11.jpg");
+    background-image: url("../img/beautybeurs111.jpg");
     background-position: all;
     border-left: dotted 2px;
     border-right: dotted 2px;
-    height: 750px;
+    height: 650px;
     width: 100%;
 }
 
 .wrapper1 .section1 .textwrap1 {
     display: inline-block;
-    float: left;
-    margin-top: 180px;
-    margin-left: 50px;
-    height: 480px;
-    width: 450px;
+    float: right;
+    margin-top: 500px;
+    margin-right: 0px;
+    height: 280px;
+    width: 380px;
     padding: 20px;
-    background-color: rgba(255,255,255,0.7);
-    border: dotted 2px;
+    background-color: rgba(255,255,255,0.9);
+    border-left: dotted 2px;
+    border-top: dotted 2px;
+    border-bottom: dotted 2px;
 }
 
 .section1 h1 {
@@ -103,12 +105,12 @@ li {
 }
 
 .wrapper2 .section2 {
-    background-image: url("../img/section22.jpg");
+    background-image: url("../img/lastone.jpg");
     background-position: cover;
     border-top: dotted 2px;
     border-left: dotted 2px;
     border-right: dotted 2px;
-    height: 520px;
+    height: 540px;
     width: 100%;
 }
 
